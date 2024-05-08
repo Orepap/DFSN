@@ -39,4 +39,4 @@ The code returns a list with the selected features.
 
 # HOW IT WORKS
 <p align="justify">
-Features demonstrating substantial weight deviations across the input (feature) layer and the first hidden dense layer, could hold higher significance in training the neural network and potentially possess heightened inherent relevance. Utilizing these connection weights, the features with the highest shifts in weight contributions (measured by standard deviation) are selected. This is due to the fact that they expedite the convergence of the neural network training, in contrast to random genes in the dataset.  </p>
+Features demonstrating substantial weight deviations across the input (feature) layer and the first hidden dense layer, could hold higher significance in training the neural network and potentially possess heightened inherent relevance. Utilizing these connection weights, the features with the highest shifts in weight contributions (measured by standard deviation) are selected. This is due to the fact that they expedite the convergence of the neural network training, in contrast to random features in the dataset.  </p>
