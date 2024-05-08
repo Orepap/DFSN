@@ -5,7 +5,7 @@ DFSN is a deep neural network for feature selection in a binary classification p
 
 
 **PAPER**:   
-[Papagiannopoulos, Orestis D., Costas Papaloukas, and Dimitrios I. Fotiadis. "Deep Learning for Biomarkers Discovery in Auto-inflammatory Disorders." 2023 IEEE EMBS Special Topic Conference on Data Science and Engineering in Healthcare, Medicine and Biology. IEEE, 2023.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10404699).
+[Papagiannopoulos, Orestis D., Costas Papaloukas, and Dimitrios I. Fotiadis. "Deep Learning for Biomarkers Discovery in Auto-inflammatory Disorders." 2023 IEEE EMBS Special Topic Conference on Data Science and Engineering in Healthcare, Medicine and Biology. IEEE, 2023.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10404699)
 
 # PREREQUISITES
 ```python
