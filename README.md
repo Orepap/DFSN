@@ -9,6 +9,7 @@ DFSN is a simple deep neural network for feature selection in a binary classific
 
 # PREREQUISITES
 ```python
+pandas
 numpy
 tensorflow.keras
 matplotlib
