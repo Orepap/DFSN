@@ -30,7 +30,7 @@ selected_features = DFSN(df=df, threshold=threshold, epochs=epochs, batch_size=b
 ```
 
 **Caution!**    
-The dataframe (df) should contain the samples as rows, the features as columns AND a last column specifying the binary labels (0 and 1)
+The dataframe (df) should contain the samples as rows, the features as columns AND a last column specifying the binary labels (0 and 1).
 
 
 The code returns a list with the selected features.
