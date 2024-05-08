@@ -23,8 +23,8 @@ df = "..." # Pandas dataframe
 threshold = "..." # Number of selected features
 epochs = "..." # Number of epochs for the neural network training
 batch_size = "..." # Batch size for the neural network training
-verbose = "..." # Training verbosity 
-plot = "..." # Boolean to show or not the weights heatmap 
+verbose = "..." # Training verbosity (0, 1 or 2)
+plot = "..." # Boolean to show or not the weights heatmap (True or False)
 
 selected_features = DFSN(df=df, threshold=threshold, epochs=epochs, batch_size=batch_size, verbose=verbose, plot=plot)
 ```
