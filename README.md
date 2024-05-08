@@ -38,7 +38,8 @@ plot = "..." # Boolean to show or not the weights heatmap
 selected_features = DFSN(df=df, threshold=threshold, epochs=epochs, batch_size=batch_size, verbose=verbose, plot=plot)
 ```
 
-The pandas dataframe (df) should contain the samples as rows, the features as columns AND a last column specifying the binary labels (0 and 1)
+**Caution!** 
+The dataframe (df) should contain the samples as rows, the features as columns AND a last column specifying the binary labels (0 and 1)
 
 
 The code returns a list with the selected features.
