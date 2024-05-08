@@ -20,7 +20,7 @@ seaborn
 from DFSN import DFSN
 
 df = "..." # Pandas dataframe
-threshold = "..." # Number of selected features
+threshold = "..." # Number of features to select
 epochs = "..." # Number of epochs for the neural network training
 batch_size = "..." # Batch size for the neural network training
 verbose = "..." # Training verbosity (0, 1 or 2)
