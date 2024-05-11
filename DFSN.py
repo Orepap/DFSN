@@ -53,14 +53,14 @@ def DFSN(df, threshold, epochs, batch_size, verbose, plot):
         ax1 = fig.add_subplot(gs[0, 0])
         sns.heatmap(input_to_hidden_weights[ii], cmap='viridis', annot=False, cbar=False, vmin=vmin, vmax=vmax, ax=ax1)
         ax1.set_title('Extracted features', fontsize=16)
-        ax1.set_xticks([])  # Remove x-axis ticks
-        ax1.set_yticklabels([list(df.columns)[f] for f in ii])  # Set custom y-axis ticks
+        ax1.set_xticks([])
+        ax1.set_yticklabels([list(df.columns)[f] for f in ii])
 
         ax2 = fig.add_subplot(gs[1, 0])
         sns.heatmap(input_to_hidden_weights[random_integers], cmap='viridis', annot=False, cbar=False, vmin=vmin, vmax=vmax, ax=ax2)
         ax2.set_title('Random features', fontsize=16)
-        ax2.set_xticks([])  # Remove x-axis ticks
-        ax2.set_yticklabels([list(df.columns)[f] for f in random_integers])  # Set custom y-axis ticks
+        ax2.set_xticks([])
+        ax2.set_yticklabels([list(df.columns)[f] for f in random_integers])
 
         cax = fig.add_subplot(gs[:, 1])
         cbar = fig.colorbar(plt.cm.ScalarMappable(cmap='viridis', norm=plt.Normalize(vmin=vmin, vmax=vmax)), cax=cax, orientation='vertical')
