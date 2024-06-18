@@ -54,13 +54,13 @@ def DFSN(df, threshold, epochs, batch_size, verbose, plot):
         sns.heatmap(input_to_hidden_weights[ii], cmap='viridis', annot=False, cbar=False, vmin=vmin, vmax=vmax, ax=ax1)
         ax1.set_title('Extracted features', fontsize=16)
         ax1.set_xticks([])
-        ax1.set_yticklabels([list(df.columns)[f] for f in ii])
+        ax1.set_yticklabels([list(df.columns)[f] for f in ii], rotation=0)
 
         ax2 = fig.add_subplot(gs[1, 0])
         sns.heatmap(input_to_hidden_weights[random_integers], cmap='viridis', annot=False, cbar=False, vmin=vmin, vmax=vmax, ax=ax2)
         ax2.set_title('Random features', fontsize=16)
         ax2.set_xticks([])
-        ax2.set_yticklabels([list(df.columns)[f] for f in random_integers])
+        ax2.set_yticklabels([list(df.columns)[f] for f in random_integers], rotation=0)
 
         cax = fig.add_subplot(gs[:, 1])
         cbar = fig.colorbar(plt.cm.ScalarMappable(cmap='viridis', norm=plt.Normalize(vmin=vmin, vmax=vmax)), cax=cax, orientation='vertical')
